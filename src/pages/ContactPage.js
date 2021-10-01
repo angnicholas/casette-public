@@ -6,12 +6,9 @@ const Contact = () => {
     <div className={styles.mainWrapper}>
       <div className={styles.mainContent}>
         <p className="redTitle">CONTACT US</p>
-      </div>
-      
+      </div>      
     </div>
-    
   );
 };
-
 
 export default Contact;

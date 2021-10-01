@@ -18,12 +18,9 @@ function SinglePostPage() {
           alert('Couldn`t get post data');
         }
     })
-    
-
   }, [])
 
   return data ? <SinglePost post={data} /> : <div>Loading...</div>
-
 }
 
 export default SinglePostPage;

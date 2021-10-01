@@ -4,11 +4,8 @@ import IndexPost from "./IndexPost";
 
 const PostList = ({ posts }) => {
   return (
-
     <div>
-
-      <div className={styles.bannerImage}>
-        
+      <div className={styles.bannerImage}>        
       </div>
     
       <ul className={styles.postList}>
@@ -16,7 +13,6 @@ const PostList = ({ posts }) => {
           <IndexPost key={post._id} post={post} />
         ))}
       </ul>
-
     </div>
   );
 };

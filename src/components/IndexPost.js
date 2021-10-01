@@ -10,6 +10,7 @@ function Post({ post }) {
     hour: "numeric",
     minute: "2-digit",
   });
+  
   return (
     
     <div className={style.post} >

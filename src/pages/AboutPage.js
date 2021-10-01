@@ -5,8 +5,11 @@ const About = () => {
   return (
     <div className={styles.mainWrapper}>
       <div className={styles.mainContent}>
+
         <p className="redTitle">ABOUT THE BLOG</p>
+
         <p>The Story</p>
+
         <p>What is it that fuels you? For me, it’s Casette. I
           love writing about my passions, what interest me, what
           interests others, and sharing all of my thoughts with my 
@@ -18,12 +21,9 @@ const About = () => {
           Take a look around; perhaps you’ll discover what fuels you 
           as well. Read on and enjoy!</p>
           
-      </div>
-      
-    </div>
-    
+      </div>      
+    </div>    
   );
 };
-
 
 export default About;
