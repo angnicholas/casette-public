@@ -8,9 +8,7 @@ const Blog = () => {
 
   useEffect(() => {
     const getPosts = async () => {
-      console.log(process.env.REACT_APP_BACKEND_URL);
       axios.get(process.env.REACT_APP_BACKEND_URL).then((response) => {
-        console.log(response.data.posts);
         setPosts(response.data.posts);
       }).catch((err) => {
         console.log(err);
@@ -18,8 +16,6 @@ const Blog = () => {
     };
     getPosts();
   }, []);
-
-  console.log(posts);
 
   return (
     posts ? <AllPosts posts={posts} /> : <div>Loading...</div>

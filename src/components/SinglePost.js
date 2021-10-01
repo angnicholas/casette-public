@@ -6,9 +6,6 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 export const SinglePost = ({post}) => {
 
-  console.log(post);
-
-
   const date_created = new Date(post.date_created);
   const date_created_formatted = date_created.toLocaleDateString("en-gb", {
     year: "numeric",
@@ -22,8 +19,7 @@ export const SinglePost = ({post}) => {
     month: "short",
     day: "numeric"
   });
-  //console.log(preloadedValues)
-
+  
   return (
     <div className={styles.post}>
       <div className={styles.postContent}>

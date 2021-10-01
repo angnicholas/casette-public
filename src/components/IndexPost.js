@@ -20,7 +20,7 @@ function Post({ post }) {
       
       <div className={style.indexContent}>
         <div>
-          <h1><a href={`/#/posts/${post._id}`} key={post._id}>{post.title}</a></h1>
+          <h1><a href={process.env.PUBLIC_URL+`/#/posts/${post._id}`} key={post._id}>{post.title}</a></h1>
           <p><i>Written By: {post.author_name}</i></p>
           <p style={{ marginBottom: "20px" }}>{date_created_formatted}</p>
         </div>
