@@ -1,0 +1,61 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.navbar {
+  //position: fixed;
+  text-align:center;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  background: white;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: xx-large;
+  //border-bottom: 1px solid #4646462e;
+  z-index: 1;
+
+  @media (max-width: 400px) {
+    padding: 20px 20px;
+  }
+
+  > a {
+    font-weight:300;
+    font-size:1.5em;
+    margin-bottom:0.4em;
+
+
+
+    @media (max-width: 400px) {
+      margin-left: 20px;
+    }
+  }
+
+  ul {
+    font-size:0.5em;
+    align-items:center;
+    justify-content:center;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 80px;
+
+    @media (max-width: 400px) {
+      padding: 0px 20px;
+    }
+
+    a {
+      z-index: 10000;
+    }
+
+    li {
+      font-weight:400;
+      padding: 0px 10px 0px 10px;
+    }
+  }
+}

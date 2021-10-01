@@ -1,0 +1,20 @@
+.mainWrapper {
+
+  font-weight:400;
+
+  flex-direction:column;
+  align-items:center;
+
+  display: flex;
+  
+  .mainContent{
+    width: 700px;
+
+    p{
+      text-align:center;
+      margin: 1.5em 0;  
+    }
+
+
+  }
+}
