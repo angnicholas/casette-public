@@ -4,12 +4,12 @@ import styles from "../styles/Nav.module.scss";
 const Nav = () => {
   return (
     <nav className={styles.navbar}>
-      <a href="/">CASETTE</a>
+      <a href={process.env.PUBLIC_URL}>CASETTE</a>
       <hr></hr>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/#/contact">Contact</a></li>
-        <li><a href="/#/about">About</a></li>
+        <li><a href={process.env.PUBLIC_URL}>Home</a></li>
+        <li><a href={process.env.PUBLIC_URL+"/#/contact"}>Contact</a></li>
+        <li><a href={process.env.PUBLIC_URL+"/#/about"}>About</a></li>
       </ul>
     </nav>
   );
