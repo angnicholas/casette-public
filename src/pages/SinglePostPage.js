@@ -10,7 +10,6 @@ function SinglePostPage() {
  
   useEffect(() => {  
     const my_url = process.env.REACT_APP_BACKEND_URL+`/posts/${id}`
-    console.log(my_url)
     axios.get(my_url)
       .then(response => {
         if(response.status == 200){
