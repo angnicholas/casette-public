@@ -6,9 +6,9 @@ const Nav = () => {
     <footer className={styles.footer}>
 
       <div className={styles.socialmedia}>
-        <a href="https://facebook.com"><img src={PUBLIC_URL+"fb.png"}></img></a>
-        <a href="https://instagram.com"><img src={PUBLIC_URL+"it.png"}></img></a>
-        <a href="https://linkedin.com"><img src={PUBLIC_URL+"inW.png"}></img></a>
+        <a href="https://facebook.com"><img src={process.env.PUBLIC_URL+"fb.png"}></img></a>
+        <a href="https://instagram.com"><img src={process.env.PUBLIC_URL+"it.png"}></img></a>
+        <a href="https://linkedin.com"><img src={process.env.PUBLIC_URL+"inW.png"}></img></a>
         
       </div>
       
