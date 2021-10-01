@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/casette-publi/static/css/main.bb993aeb.chunk.css",
-    "main.js": "/casette-publi/static/js/main.b27cedf2.chunk.js",
-    "main.js.map": "/casette-publi/static/js/main.b27cedf2.chunk.js.map",
-    "runtime-main.js": "/casette-publi/static/js/runtime-main.5a9b9db7.js",
-    "runtime-main.js.map": "/casette-publi/static/js/runtime-main.5a9b9db7.js.map",
-    "static/js/2.662b934c.chunk.js": "/casette-publi/static/js/2.662b934c.chunk.js",
-    "static/js/2.662b934c.chunk.js.map": "/casette-publi/static/js/2.662b934c.chunk.js.map",
-    "static/js/3.7451c8a1.chunk.js": "/casette-publi/static/js/3.7451c8a1.chunk.js",
-    "static/js/3.7451c8a1.chunk.js.map": "/casette-publi/static/js/3.7451c8a1.chunk.js.map",
-    "index.html": "/casette-publi/index.html",
-    "static/css/main.bb993aeb.chunk.css.map": "/casette-publi/static/css/main.bb993aeb.chunk.css.map",
-    "static/js/2.662b934c.chunk.js.LICENSE.txt": "/casette-publi/static/js/2.662b934c.chunk.js.LICENSE.txt",
-    "static/media/SinglePost.module.scss": "/casette-publi/static/media/avenir_light.8f47513e.ttf"
+    "main.css": "/casette-public/static/css/main.641d2408.chunk.css",
+    "main.js": "/casette-public/static/js/main.01fac709.chunk.js",
+    "main.js.map": "/casette-public/static/js/main.01fac709.chunk.js.map",
+    "runtime-main.js": "/casette-public/static/js/runtime-main.69a3a638.js",
+    "runtime-main.js.map": "/casette-public/static/js/runtime-main.69a3a638.js.map",
+    "static/js/2.662b934c.chunk.js": "/casette-public/static/js/2.662b934c.chunk.js",
+    "static/js/2.662b934c.chunk.js.map": "/casette-public/static/js/2.662b934c.chunk.js.map",
+    "static/js/3.7451c8a1.chunk.js": "/casette-public/static/js/3.7451c8a1.chunk.js",
+    "static/js/3.7451c8a1.chunk.js.map": "/casette-public/static/js/3.7451c8a1.chunk.js.map",
+    "index.html": "/casette-public/index.html",
+    "static/css/main.641d2408.chunk.css.map": "/casette-public/static/css/main.641d2408.chunk.css.map",
+    "static/js/2.662b934c.chunk.js.LICENSE.txt": "/casette-public/static/js/2.662b934c.chunk.js.LICENSE.txt",
+    "static/media/SinglePost.module.scss": "/casette-public/static/media/avenir_light.8f47513e.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.5a9b9db7.js",
+    "static/js/runtime-main.69a3a638.js",
     "static/js/2.662b934c.chunk.js",
-    "static/css/main.bb993aeb.chunk.css",
-    "static/js/main.b27cedf2.chunk.js"
+    "static/css/main.641d2408.chunk.css",
+    "static/js/main.01fac709.chunk.js"
   ]
 }
